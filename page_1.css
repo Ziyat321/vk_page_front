@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial;
+    background-color: #edeef0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.stripe {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.stripe1 {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.parent {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #edeef0;
+    display: flex;
+    flex-direction: row;
+}
+
+.block1 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    color: #626d7a;
+}
+
+.picture-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.picture-box img:nth-child(1) {
+    height: 390px;
+    background-color: unset;
+}
+
+.picture-box img:nth-child(2) {
+    height: 410px;
+    margin-left: -31px;
+    background-color: unset;
+}
+
+.store-link-box {
+    width: 350px;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.store-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #3770B1;
+}
+
+.store-box img {
+    margin-right: 3px;
+}
+
+.all-products-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #3770B1;
+}
+
+.block2 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.white-block {
+    width: 340px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.logo1 {
+    height: 45px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14px;
+    margin-bottom: 18px;
+    background-color: white;
+}
+
+.box img {
+    width: 48px;
+    background-color: white;
+}
+
+.sign-in-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 24px;
+    background-color: white;
+}
+
+.signin-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 292px;
+    margin-top: 24px;
+    background-color: white;
+}
+
+.save-checkbox label {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-login {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    background-color: #f0f2f5;
+    border-radius: 8px;
+    border: 1px #939ca9 solid;
+}
+
+.save-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 12px;
+    cursor: pointer;
+    color: #818c99;
+    font-size: 12px;
+    background-color: white;
+}
+
+.save-checkbox input {
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.save-checkbox div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #818c99;
+    color: white;
+    height: 14px;
+    width: 14px;
+    border-radius: 50px;
+    margin-left: 4px;
+}
+
+.signin-panel button {
+    background-color: #0077ff;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    margin-top: 28px;
+    color: white;
+}
+
+.underline {
+    height: 1px;
+    width: 292px;
+    background-color: #939ca9;
+    margin-top: 24px;
+}
+
+.qr-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 292px;
+    margin-top: 22px;
+    background-color: white;
+}
+
+.qr-img {
+    width: 75px;
+    margin-left: 3px;
+    background-color: white;
+}
+
+.qr-text {
+    margin-left: 5px;
+    background-color: white;
+}
+
+.qr-text div:nth-child(1) {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.qr-text div:nth-child(2) {
+    font-size: 12px;
+    color: #6d7885;
+    margin-bottom: 6px;
+    background-color: white;
+}
+
+.qr-text a {
+    color: #2d81e0;
+    font-size: 12px;
+    background-color: white;
+}
+
+.button-block {
+    width: 292px;
+    background-color: white;
+}
+
+.sign-up-button {
+    background-color: #4bb34b;
+    width: 292px;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.business-page-button {
+    width: 292px;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: #3770B1 1px solid;
+    color: #3770B1;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.text2 {
+    width: 292px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #99a2ad;
+    background-color: white;
+}
+
+.text2 span {
+    background-color: white;
+}
+
+.text2 a {
+    color: #626d7a;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    background-color: white;
+}
+
+.block2 > a {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #818c99;
+}
+
+.bottom-stripe {
+    width: 1000px;
+    margin: 0 auto;
+    color: #626d7a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.bottom-stripe a {
+    color: #2a5885;
+    padding-right: 6px;
+    font-size: 14px;
+}
+
+.vk-refs a {
+    padding-right: unset;
+}
+
+.vk-refs span {
+    font-size: 14px;
+}
